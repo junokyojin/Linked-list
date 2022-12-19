@@ -9,6 +9,16 @@ cài đặt chương trình:
 
 31-45: viết hàm thêm nút vào danh sách
 
+![10](https://user-images.githubusercontent.com/103046663/208472085-26470b0f-5d79-4416-8c1f-1ca3669fdc4d.png)
+
+Nếu danh sách liên kết rỗng hoặc chỉ có một phần tử thì trả về. Nếu danh sách chỉ có một phần tử, thì nút đầu tiên và nút cuối cùng về cơ bản giống nhau.
+
+Trỏ prev tới nút đầu tiên và cur tới nút thứ hai.
+
+Tiếp tục di chuyển cả prev và cur sang các nút tiếp theo cho đến khi cur->next trở thành NULL. cur->next trỏ đến NULL có nghĩa là cur trỏ đến nút cuối cùng và prev trỏ đến nút cuối cùng thứ hai.
+
+Trỏ nút cuối cùng thứ hai vào NULL (prev->next = NULL), nút cuối cùng vào nút đầu tiên (cur->next = head). Và chỉ định đầu nơi cur đang trỏ tới (head = cur).
+
 bài 10: 
 cài đặt chương trình
 ![1](https://user-images.githubusercontent.com/103046663/208464490-f97607eb-a5c2-46b1-a8de-cccfeb453cff.jpg)
