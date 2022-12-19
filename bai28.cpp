@@ -1,16 +1,13 @@
-/* C Program to move last element to front in a given linked list */
+
 #include<stdio.h>
 #include<stdlib.h>
 
-/* A linked list node */
 struct Node
 {
 	int data;
 	struct Node *next;
 };
 
-/* We are using a double pointer head_ref here because we change
-head of the linked list inside this function.*/
 void moveToFront(struct Node **head_ref)
 {
     struct Node *temp1=*head_ref, *temp2=*head_ref,*pre=NULL;
@@ -29,8 +26,8 @@ void moveToFront(struct Node **head_ref)
     
 }
 
-/* UTILITY FUNCTIONS */
-/* Function to add a node at the begining of Linked List */
+
+
 void push(struct Node** head_ref, int new_data)
 {
 	/* allocate node */
@@ -62,8 +59,7 @@ int main()
 {
 	struct Node *start = NULL;
 
-	/* The constructed linked list is:
-	1->2->3->4->5 */
+
 	push(&start, 5);
 	push(&start, 4);
 	push(&start, 3);
