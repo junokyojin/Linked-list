@@ -1,8 +1,12 @@
 # Linked-list
 bài 28: 
+
 cài đặt chương trình: 
+
 13-26 :  Chúng ta đang sử dụng con trỏ kép head_ref ở đây vì chúng ta thay đổi
+
 đứng đầu danh sách liên kết bên trong hàm này
+
 31-45: viết hàm thêm nút vào danh sách
 
 bài 10: 
